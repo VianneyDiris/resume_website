@@ -1,3 +1,9 @@
+body{
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    letter-spacing: 1px;
+}
 .overlay{
     width: 100%;
     height: 100%;
@@ -52,4 +58,36 @@
 }
 .justify{
     text-align: justify;
+}
+.skillsSection{
+    background-color: #0c2461;
+    color: #fff;
+}
+#space{
+    margin-top: 50px;
+}
+.skill{
+    text-align: center;
+    margin-left: 10px;
+}
+.chart{
+    position: relative;
+    width: 152px;
+    height: 152px;
+    display: inline-block;
+    text-align: center;
+}
+.chart canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.chart .percent{
+    color: #eb2f06;
+    line-height: 152px;
+    display: inline-block;
+    font-size: 35px;
+}
+.chart .percent::after{
+    content: '%';
 }
