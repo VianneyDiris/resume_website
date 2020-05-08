@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Vianney Diris</title>
+    <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/superslides.css" type="text/css">
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
@@ -123,10 +124,10 @@
         </div>
     </div>
 
-    <div class="section page-section" id="formation">
+    <div class="section bg-light" id="formation">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">FORMATION</h2>
+                <h2>FORMATION</h2>
                 <p>Voici la liste de mes diplômes.</p>
             </div>
             <ul class="timeline space">
@@ -183,9 +184,206 @@
         <div class="col-md-12 text-center">
             <h2>Pour plus d'information :</h2>
             <p>Voici mon CV pdf : 286Ko</p>
-            <a href="file/CV_Diris_Vianney.pdf" download="Diris_Vianney">
+            <a href="file/CV_Diris_Vianney.pdf" download="Diris_Vianney" class="space">
                 <button type="button" class="btn btn-danger">télécharger CV</button>
             </a>
+        </div>
+    </div>
+
+    <section class="section bg-light" id="portfolio">
+        <div class="container">
+            <div class="text-center">
+                <h2>PORTFOLIO</h2>
+                <p>Voici une liste de mes projets.</p>
+            </div>
+            <div class="row space">
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1"
+                            ><div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/portfolio/Mastermind-thumbnail.jpg" alt=""
+                        /></a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Mastermind</div>
+                            <div class="portfolio-caption-subheading text-muted">C'est le jeu du mastermind en mode console.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2"
+                            ><div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/portfolio/escalade-thumbnail.PNG" alt=""
+                        /></a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Escalade</div>
+                            <div class="portfolio-caption-subheading text-muted">Un site web sur le thème de l'escalade.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3"
+                            ><div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/portfolio/biblio-thumbnail.PNG" alt=""
+                        /></a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Bibliothèque</div>
+                            <div class="portfolio-caption-subheading text-muted">Une application web pour une bibliothèque.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4"
+                            ><div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/portfolio/marche-thumbnail.jpg" alt=""
+                        /></a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Communautaire</div>
+                            <div class="portfolio-caption-subheading text-muted">Une application pour mettre en relation producteurs et clients.</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal 1-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><img src="img/icons/close.png" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Mastermind</h2>
+                                <p class="item-intro text-muted">C'est le jeu du mastermind en mode console.</p>
+                                <img class="img-fluid d-block mx-auto" src="img/portfolio/mastermind.PNG" alt="" />
+                                <p class="justify">Le projet contient 2 jeux fait en mode console. Le premier est un jeu de +/-, le but est de deviner le nombre avec comme indice que le nombre est plus grand ou plus petit.
+                                    L'autre jeu est le mastermind dont le but est d'aussi de trouver le nombre mais avec des indices plus difficile.        
+                                </p>
+                                <p class="justify">Ce projet avait pour but de nous initier à la programmation java ainsi que de mettre en place un algorithme.</p>
+                                <ul class="list-inline">
+                                    <li>Date: Août 2017</li>
+                                    <li>Client: Openclassrooms</li>
+                                    <li>Categorie: Jeux</li>
+                                </ul>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i>Fermer le projet</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><img src="img/icons/close.png" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Escalade</h2>
+                                <p class="item-intro text-muted">Un site web sur le thème de l'escalade.</p>
+                                <img class="img-fluid" src="img/portfolio/escalade.PNG" alt="" />
+                                <p class="justify">Le site web est fait pour parler d'escalade. On doit pouvoir voir la liste des sites d'escalade appelé Spot.
+                                    Les utilisateurs doivent pouvoir s'authentifier et se partager des topos.        
+                                </p>
+                                <p class="justify">Ce projet avait pour but de nous apprendre à faire un site responsive ainsi qu'à appréhender les frameworks Struts pour le MVC et Spring IOC.</p>
+                                <ul class="list-inline">
+                                    <li>Date: Mars 2018</li>
+                                    <li>Client: Openclassrooms</li>
+                                    <li>Categorie: Site web</li>
+                                </ul>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i>Fermer le projet</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 3-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><img src="img/icons/close.png" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Bibliothèque</h2>
+                                <p class="item-intro text-muted">Une application web pour une bibliothèque.</p>
+                                <img class="img-fluid d-block mx-auto" src="img/portfolio/biblio.PNG" alt="" />
+                                <p class="justify">L'application a pour but de louer des livres comme dans une vrai bibliothèque. Au niveau des fonctionnalités: 
+                                    <ul class="nullify">
+                                        <li>Gestion du profil utilisateur</li>
+                                        <li>Fonction recherche par auteur/genre/titre</li>
+                                        <li>Relance par mail pour les livres non rendu</li>
+                                    </ul>        
+                                </p>
+                                <p class="justify">Ce projet avait l'ambition de nous apprendre comment communique 2 applications avec SOAP. Il m'a aussi permis de comprendre l'intérêt des batchs.</p>
+                                <ul class="list-inline">
+                                    <li>Date: Juillet 2018</li>
+                                    <li>Client: Openclassrooms</li>
+                                    <li>Categorie: Application web</li>
+                                </ul>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i>Fermer le projet</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 4-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><img src="img/icons/close.png" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Communautaire</h2>
+                                <p class="item-intro text-muted">Une application pour mettre en relation producteurs et clients.</p>
+                                <img class="img-fluid d-block mx-auto" src="img/portfolio/projet 12.png" alt="" />
+                                <p class="justify">Pour ce dernier projet du parcours, on nous a donné carte blanche, il faut juste que notre projet possède un aspect social/communautaire.
+                                    Pour avoir un rapport plus professionnel, j'ai travaillé avec 2 autres étudiants. On a opté sur un application qui mettrait en relation les producteurs et les clients.
+                                    On s'est rajouté comme difficulté qu'un client ne doit avoir accès qu'aux producteurs proche de chez lui.
+                                </p>
+                                <p class="justify">Nous avons découpé notre application en microservice, pour mieux se partager les tâches. Je fûs en charge de la partie "gestion des produits et des stocks" ainsi que des adresses.
+                                    J'ai développé aussi l'interface graphique concernant la gestion des produits au niveau des producteurs.
+                                </p>
+                                <p class="justify">Ce projet est le plus complet que j'ai réalisé. Il comprend le travail d'équipe, l'utilisation de microservice Spring Boot REST et l'emploi de thymeleaf.</p>
+                                <ul class="list-inline">
+                                    <li>Date: Octobre 2018</li>
+                                    <li>Client: Openclassrooms</li>
+                                    <li>Categorie: Application web</li>
+                                </ul>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i>Fermer le projet</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
