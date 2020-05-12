@@ -29,6 +29,31 @@ body{
     right: 20px;
     background-image: url(../img/icons/next.png);
 }
+#navigation{
+  background-color: #4a69bd;
+  padding: 20px 20px;
+  z-index: 100;
+  width: 100%;
+}
+#navigation li{
+  padding: 0px 10px;
+}
+#navigation li a{
+  color: #fff;
+}
+.navbar-brand, .navbar-brand:hover{
+  color: #212529;
+}
+.navbar-toggler{
+  background: url(../img/icons/menu.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+}
+.fixedNav #navigation{
+  position: fixed;
+  top: 0;
+}
+
 .titleMessage{
     position: absolute;
     width: 100%;
