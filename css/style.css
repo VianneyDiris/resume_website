@@ -139,6 +139,7 @@ body{
     position: relative;
     padding: 0;
     list-style: none;
+    z-index: 50;
 }
   .timeline:before {
     position: absolute;
