@@ -84,4 +84,11 @@ $(document).ready(function() {
         var targetPosition = $(targetElement).offset().top;
         $("html, body").animate({scrollTop : targetPosition - 50},"slow");
     });
+
+    $(".mail").mouseover(function(){
+        var oldUrl = $(this).attr("href");
+        var newUrl = oldUrl.replace("@@", ".");
+        $(this).attr("href", newUrl);
+
+    });
 });
